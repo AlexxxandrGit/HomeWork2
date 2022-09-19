@@ -29,22 +29,22 @@ public class Main {
         System.out.println(frog);
         frog = frog + 4;
         System.out.println(frog);
-        var FirstBoxer = 78.2;
-        var SecondBoxer = 82.7;
-        var TotalWeight = FirstBoxer + SecondBoxer;
-        System.out.println("Общий вес боксёров " + TotalWeight + " кг");
-        var WeightDifference = SecondBoxer - FirstBoxer;
-        System.out.println("Разница между весами бойцов " + WeightDifference + " кг");
-        var DividingNumbers = SecondBoxer % FirstBoxer;
-        System.out.println("Разница между весами бойцов полученная путем остатка от деления " + DividingNumbers + " кг");
-        var TotalWorkingTime = 640;
-        var EmployeeTime = 8;
-        var TotalEmployees = TotalWorkingTime / EmployeeTime;
-        System.out.println("Всего работников в компании " + TotalEmployees + " человек");
-        TotalEmployees = TotalEmployees + 94;
-        System.out.println(TotalEmployees);
-        var NewWorkingHours = TotalWorkingTime / TotalEmployees;
-        System.out.println("Если в компании работает 174 человека, то всего по " + NewWorkingHours + " часа работы может быть поделено между сотрудниками");
+        var firstBoxer = 78.2;
+        var secondBoxer = 82.7;
+        var totalWeight = firstBoxer + secondBoxer;
+        System.out.println("Общий вес боксёров " + totalWeight + " кг");
+        var weightDifference = secondBoxer - firstBoxer;
+        System.out.println("Разница между весами бойцов " + weightDifference + " кг");
+        var dividingNumbers = secondBoxer % firstBoxer;
+        System.out.println("Разница между весами бойцов полученная путем остатка от деления " + dividingNumbers + " кг");
+        var totalWorkingTime = 640;
+        var employeeTime = 8;
+        var totalEmployees = totalWorkingTime / employeeTime;
+        System.out.println("Всего работников в компании " + totalEmployees + " человек");
+        totalEmployees = totalEmployees + 94;
+        System.out.println(totalEmployees);
+        var newWorkingHours = totalWorkingTime / totalEmployees;
+        System.out.println("Если в компании работает 174 человека, то всего по " + newWorkingHours + " часа работы может быть поделено между сотрудниками");
 
 
 
